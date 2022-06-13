@@ -1,4 +1,3 @@
-# What is Multiscript?
 Multiscript is a desktop application for combining Bible passages in multiple languages for multicultural Christian ministry. It simplifies the process of collating different combinations of Bible versions for a set of passages.
 
 # Why Multiscript?
@@ -28,20 +27,5 @@ The code is currently pre-release, so you should expect bugs. The installers bel
   - [Source code (zip)](https://github.com/multiscript/multiscript/archive/refs/tags/v0.8.1.zip)
   - [Source code (tar.gz)](https://github.com/multiscript/multiscript/archive/refs/tags/v0.8.1.tar.gz)
 
-## Build Instructions
-Use these instructions if you're building from the source code. Multiscript has been developed and tested mostly on macOS Mojave. We've done some very basic testing on Windows 10.
-1. Install Python (we've only tested with Python 3.7)
-1. Install git
-1. `git clone https://github.com/jamesbcd/multiscript/`
-1. `cd multiscript`
-1. `python3 -m venv venv` (Create a virtual environment.)
-   * On Windows: `python -m venv venv`
-1. `source venv/bin/activate` (Activate the virtual environment.)
-   * In Windows cmd.exe: `venv\Scripts\activate.bat`
-   * In Windows powershell: `.\venv\Scripts\Activate.ps1` You may first need to run `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
-1. `pip install -r requirements.txt` (Install our dependencies)
-1. At this point, if you want to run the build from source, execute: `python -m multiscript`
-1. `python build.py` (Build the executable self-contained application from source)
-   * The resulting `dist` directory will contain the built application.
-
+To build from source, see [the repository README](https://github.com/multiscript/multiscript#build-instructions).
 
