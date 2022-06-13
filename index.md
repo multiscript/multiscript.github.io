@@ -1,4 +1,4 @@
-
+  
 # What is Multiscript?
 Multiscript is a desktop application for combining Bible versions for multicultural Christian ministry. It simplifies
 the process of collating each passage and version in all the combinations that you need.
