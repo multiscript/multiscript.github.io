@@ -39,10 +39,10 @@ The code is currently pre-release, so you should expect bugs. The installers bel
 you may have to override warning messages from your operating system when installing and running the application for
 the first time. If you have skills that would help us improve the project, we'd love to hear from you!
 
-  - [macOS Disk Image](https://github.com/multiscript/multiscript/releases/download/v0.8.1/Multiscript.dmg)
-  - [Windows Installer](https://github.com/multiscript/multiscript/releases/download/v0.8.1/multiscript_0.8.1_install.exe)
-  - [Source code (zip)](https://github.com/multiscript/multiscript/archive/refs/tags/v0.8.1.zip)
-  - [Source code (tar.gz)](https://github.com/multiscript/multiscript/archive/refs/tags/v0.8.1.tar.gz)
+  - [macOS disk image](https://github.com/multiscript/multiscript/releases/download/v0.8.5/Multiscript.dmg)
+  - [Windows installer](https://github.com/multiscript/multiscript/releases/download/v0.8.5/multiscript_installer.exe)
+  - [Source code (zip)](https://github.com/multiscript/multiscript/archive/refs/tags/v0.8.5.zip)
+  - [Source code (tar.gz)](https://github.com/multiscript/multiscript/archive/refs/tags/v0.8.5.tar.gz)
 
 To build from source, see [the repository README](https://github.com/multiscript/multiscript#build-instructions).
 
