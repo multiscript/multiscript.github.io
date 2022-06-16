@@ -34,6 +34,9 @@ Current template formats supported:
   - Microsoft Word
   - Plain text
 
+# Documentation
+Some basic documentation is [available here](docs/).
+
 # Downloads
 The code is currently pre-release, so you should expect bugs. The installers below are not currently code-signed, so
 you may have to override warning messages from your operating system when installing and running the application for
