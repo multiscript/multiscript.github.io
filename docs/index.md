@@ -1,5 +1,11 @@
 # Documentation
+Multiscript documents are called *plans*. A Multiscript plan file describes the Bible passage references, Bible versions, output template and settings that will be used to generated the set of outpuf files.
+
+An example Multiscript plan looks like this:
+
 ![Example Plan](example-plan.png)
+
+Here are the basic features of a plan window:
 
 ## **A** - Bible Passages
 This is the list of Bible passages you want to collate. Many common English abbreviations for book names will be accepted. At the moment, you always have to include the book name (i.e. references like Mark 1:1-5; 2:1-5 won't work – use Mark 1:1-5; Mark 2:1-5 instead).
@@ -9,7 +15,7 @@ Passages separated by a comma are considered to be part of one *group*. Usually 
 Passages separated by a semicolon are considered to be in separate groups (i.e. separate tables).
 
 ## **B** - Bible Versions
-This is the list of versions you wish to combine. Click **Add Versions to Set** to choose which versions you wish to collate.
+This is the list of versions you wish to combine. Click **Add Versions to Set** to add versions to the plan.
 
 The version *columns* (i.e. Version A, Version B etc.) control how the versions are combined. It's easiest to think of each column in this list as a Bible passage column in your output document. You then tick which versions you want to appear in each column.
 
@@ -42,4 +48,4 @@ This is the folder in which the output files will be generated.
 Click this button to adjust various settings specific to this plan file.
 
 ## **F** - Start
-Click this button to begin generating the output files.
+Click this button to execute the plan, which will generate the output files.
