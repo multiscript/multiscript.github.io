@@ -19,19 +19,19 @@ This is the list of versions you wish to combine. Click **Add Versions to Set** 
 
 The version *columns* (i.e. Version A, Version B etc.) control how the versions are combined. It's easiest to think of each column in this list as a Bible passage column in your output document. You then tick which versions you want to appear in each column.
 
-In the screenshot above, the English version is the only ticked version in column A, which means it will appear in every output document. All the other versions are ticked in column B. This will result in a series of files being generated, all of which have English and one other version in the document.
+In the screenshot above, the English version is the only ticked version in column A, which means it will appear in every output document. All the other versions are ticked in column B. This will result in a series of files being generated, each of which have English and one of the other versions included per file.
 
-You can have any number of columns (from 1 to 26), and Multiscript will generate every possible combination for the versions and column ticks you enter.
+You can have any number of columns (currently 1 to 26), and Multiscript will generate every possible combination for the versions and column ticks you enter.
 
 You can double-click on any version to edit its labels, preferred font etc.
 
 ## **C** - Template
-This is the template document that Multiscript will use to generate each output file. This template should include any of the following tags:
+This is the template document that Multiscript will use to generate each output file. This template should include any of the following tags. Around the tags you can include any other content that you like.
 
 | Tag | Description |
 |-----|-------------|
-| **\[MSC_ALL_VERS_USER_LANG\]** | Inserts the list of all the versions' languages (user labels) appearing in the output file. |
-| **\[MSC_UNIQUE_VERS_USER_LANG\]** | Inserts the list of versions' languages (user labels) for *unique* versions in the plan. In other words, this is the same as [MSC_ALL_VERS_USER_LANG\] except it ignores columns that have only one version ticked.|
+| **\[MSC_ALL_VERS_USER_LANG\]** | Inserts the list of all the version languages (using user labels) appearing in the output file. |
+| **\[MSC_UNIQUE_VERS_USER_LANG\]** | Inserts the list of version languages (user user labels) for *unique* versions in the plan. In other words, this is the same as [MSC_ALL_VERS_USER_LANG\] except it ignores columns that have only one version ticked.|
 | **\[MSC_VER_USER_LANG_X\]** | Inserts one version's language (user label), where X is the is the version column letter (e.g. A,B,C).|
 | **\[MSC_ALL_TABLES\]** | The most useful tag. For each group of passages, inserts a passage header (\[MSC_PASSAGE_GROUP\] tag), followed by a table containing the Bible text (\[MSC_TEXT\] tags). The first table in the document includes an extra row at the top containing [MSC_VER_NAME\] tags.|
 | **\[MSC_PASSAGE_GROUP_n\]** | Inserts the Bible passage reference for an entire group of passages (i.e. passages separated by commas), where n is group number (starting from 1).|
@@ -39,7 +39,7 @@ This is the template document that Multiscript will use to generate each output 
 | **\[MSC_VER_NAME_X\]** | Inserts the version's name, where X is the is the version column letter (e.g. A,B,C).|
 | **\[MSC_TEXT_nX\]** | Inserts the actual Bible text, where n is the passage number (starting from 1, and ignoring any groups), and X is the is the version column letter (e.g. A,B,C).|
 | **\[MSC_TEXT_JOIN\]** | Inserts the continuation text (which by default is an ellipsis). |
-| **\[MSC_COPYRIGHT_X\]** | the copyright text for one version, where X is the is the version column letter (e.g. A,B,C).|
+| **\[MSC_COPYRIGHT_X\]** | Insert the copyright text for one version, where X is the is the version column letter (e.g. A,B,C).|
 
 ## **D** - Output Folder
 This is the folder in which the output files will be generated.
