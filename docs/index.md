@@ -1,5 +1,5 @@
 # Documentation
-Multiscript documents are called *plans*. A Multiscript plan file describes the Bible passage references, Bible versions, output template and settings that will be used to generated the set of outpuf files.
+Multiscript documents are called *plans*. A Multiscript plan file describes the Bible passage references, Bible versions, output template and settings that will be used to generated the set of output files.
 
 Here's an example Multiscript plan ([which you can download here](example-plan.mplan)):
 
