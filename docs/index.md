@@ -4,7 +4,7 @@
 ## **A** - Bible Passages
 This is the list of Bible passages you want to collate. Many common English abbreviations for book names will be accepted. At the moment, you always have to include the book name (i.e. references like Mark 1:1-5; 2:1-5 won't work – use Mark 1:1-5; Mark 2:1-5 instead).
 
-Passages separated by a comma are considered to be part of one *group*. Usually this means they'll appear in a single table under a combined heading, separated by continuation text (which by default is: \[...\]).
+Passages separated by a comma are considered to be part of one *group*. Usually this means they'll appear in a single table under a combined heading, separated by continuation text (which by default is an ellipsis).
 
 Passages separated by a semicolon are considered to be in separate groups (i.e. separate tables).
 
@@ -32,7 +32,7 @@ This is the template document that Multiscript will use to generate each output 
 | **\[MSC_PASSAGE_n\]** | Inserts a single Bible passage reference, where n is the passage number (starting from 1, and ignoring any groups).|
 | **\[MSC_VER_NAME_X\]** | Inserts the version's name, where X is the is the version column letter (e.g. A,B,C).|
 | **\[MSC_TEXT_nX\]** | Inserts the actual Bible text, where n is the passage number (starting from 1, and ignoring any groups), and X is the is the version column letter (e.g. A,B,C).|
-| **\[MSC_TEXT_JOIN\]** | Inserts the continuation text (by default: \[...\]). |
+| **\[MSC_TEXT_JOIN\]** | Inserts the continuation text (which by default is an ellipsis). |
 | **\[MSC_COPYRIGHT_X\]** | the copyright text for one version, where X is the is the version column letter (e.g. A,B,C).|
 
 ## **D** - Output Folder
