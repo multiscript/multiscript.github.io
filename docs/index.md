@@ -1,10 +1,11 @@
 # Documentation
 Multiscript documents are called *plans*. A Multiscript plan file describes the Bible passage references, Bible versions, output template and settings that will be used to generated the set of outpuf files.
 
-Here's an example Multiscript plan ([which you can download here](example-plan.mplan))
+Here's an example Multiscript plan ([which you can download here](example-plan.mplan)):
+
 ![Example Plan](example-plan.png)
 
-Here are the basic features of a plan window:
+Here are the basic features of a plan:
 
 ## **A** - Bible Passages
 This is the list of Bible passages you want to collate. Many common English abbreviations for book names will be accepted. At the moment, you always have to include the book name (i.e. references like Mark 1:1-5; 2:1-5 won't work – use Mark 1:1-5; Mark 2:1-5 instead).
