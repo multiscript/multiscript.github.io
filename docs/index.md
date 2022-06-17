@@ -58,7 +58,6 @@ If your template is a Microsoft Word document, Multiscript will attempt to apply
 | **MSC_Join** | Paragraph style for the continuation text (\[MSC_TEXT_JOIN\] tags). |
 | **MSC_Copyright_Table_Horiz** | Table style for horizontal table of copyright texts. |
 | **MSC_Copyright** | Style for the copyright text (\[MSC_COPYRIGHT\] tags). |
-<!-- | MSC_Passage | Paragraph style for a single passage reference. | -->
 
 ### Fonts
 You can specify a font name and font size for each version, that will be applied to the Bible text (overriding the MSC_Paragraph style). The [Google Noto project](https://fonts.google.com/noto) has fonts that cover a large number of the world's languages and scripts.
