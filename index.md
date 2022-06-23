@@ -42,7 +42,7 @@ The code is currently pre-release, so you should expect bugs. The installers bel
 you may have to override warning messages from your operating system when installing and running the application for
 the first time. If you have skills that would help us improve the project, we'd love to hear from you!
 
-  - [macOS disk image](https://github.com/multiscript/multiscript/releases/download/v0.8.5/Multiscript.dmg)
+  - [macOS disk image](https://github.com/multiscript/multiscript/releases/download/v0.8.5/Multiscript.dmg) (You will need to follow the [instructions here for opening an unregistered app](https://support.apple.com/en-gb/guide/mac-help/mh40616/12.0/mac/12.0).)
   - [Windows installer](https://github.com/multiscript/multiscript/releases/download/v0.8.5/multiscript_installer.exe)
   - [Source code (zip)](https://github.com/multiscript/multiscript/archive/refs/tags/v0.8.5.zip)
   - [Source code (tar.gz)](https://github.com/multiscript/multiscript/archive/refs/tags/v0.8.5.tar.gz)
