@@ -51,4 +51,4 @@ the first time. If you have skills that would help us improve the project, we'd 
 To build from source, see [the repository README](https://github.com/multiscript/multiscript#build-instructions).
 
 # Contact
-For more information, [start a discussion on the project site](https://github.com/multiscript/multiscript/discussions), or email jamesbmail at gmail dot com.
+For more information, [start a discussion on the project site](https://github.com/multiscript/multiscript/discussions), or email info at multiscript dot app.
