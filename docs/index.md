@@ -1,5 +1,5 @@
 # Documentation
-Multiscript documents are called *plans*. A Multiscript plan file describes the Bible passage references, Bible versions, output template and settings that will be used to generated the set of output files.
+Multiscript documents are called *plans*. A Multiscript plan describes the Bible passage references, Bible versions, output template and settings that will be used to generated the set of output files.
 
 Here's an example Multiscript plan ([which you can download here](example-plan.mplan)):
 
@@ -8,7 +8,7 @@ Here's an example Multiscript plan ([which you can download here](example-plan.m
 Here are the basic features of a plan:
 
 ## **A** - Bible Passages
-This is the list of Bible passages you want to collate. Many common English abbreviations for book names will be accepted. At the moment, you always have to include the book name (i.e. references like Mark 1:1-5; 2:1-5 won't work – use Mark 1:1-5; Mark 2:1-5 instead).
+This is the list of Bible passages you want to collate. Many common English abbreviations for book names will be accepted. At the moment, you always have to include the book name (i.e. references like `Mark 1:1-5; 2:1-5` won't work, so use `Mark 1:1-5; Mark 2:1-5` instead).
 
 Passages separated by a comma are considered to be part of one *group*. Usually this means they'll appear in a single table under a combined heading, separated by continuation text (which by default is an ellipsis).
 
@@ -28,6 +28,20 @@ You can double-click on any version to edit its labels, preferred font etc.
 ## **C** - Template
 This is the template document that Multiscript will use to generate each output file.
 
+## **D** - Output Folder
+This is the folder in which the output files will be generated.
+
+## **E** - Plan Options
+Click this button to adjust various settings specific to this plan file.
+
+## **F** - Start
+Click this button to execute the plan, which will generate the output files.
+
+## **G** - Notes
+You can write any notes you wish to include with the plan here. (The notes are stored in Markdown format.)
+
+## Editing a Template
+Here's some help for editing a template document:
 ### Tags
 
 The template file should include any of the following tags. Around the tags you can include any other content that you like.
@@ -61,12 +75,3 @@ If your template is a Microsoft Word document, Multiscript will attempt to apply
 
 ### Fonts
 You can specify a font name and font size for each version, that will be applied to the Bible text (overriding the MSC_Paragraph style). The [Google Noto project](https://fonts.google.com/noto) has fonts that cover a large number of the world's languages and scripts.
-
-## **D** - Output Folder
-This is the folder in which the output files will be generated.
-
-## **E** - Plan Options
-Click this button to adjust various settings specific to this plan file.
-
-## **F** - Start
-Click this button to execute the plan, which will generate the output files.
