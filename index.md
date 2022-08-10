@@ -47,6 +47,7 @@ the first time. If you have skills that would help us improve the project, we'd 
   - [Windows installer](https://github.com/multiscript/multiscript/releases/download/v0.11.0/multiscript_installer.exe)
   - [Source code (zip)](https://github.com/multiscript/multiscript/archive/refs/tags/v0.11.0.zip)
   - [Source code (tar.gz)](https://github.com/multiscript/multiscript/archive/refs/tags/v0.11.0.tar.gz)
+  - [List of major changes in each version](https://github.com/multiscript/multiscript/blob/main/CHANGES.md)
   - [Github repository](https://github.com/multiscript/multiscript/)
 
 To build from source, see [the repository README](https://github.com/multiscript/multiscript#build-instructions).
