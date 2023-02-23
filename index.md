@@ -43,10 +43,10 @@ you may have to override warning messages from your operating system when instal
 the first time. If you have skills that would help us improve the project, we'd love to hear from you!
 
 ## Multiscript v0.13.0
-  - [macOS disk image](https://github.com/multiscript/multiscript/releases/download/v0.13.0/Multiscript.dmg) (You will need to follow the [instructions here for opening an unregistered app](https://support.apple.com/en-gb/guide/mac-help/mh40616/12.0/mac/12.0).)
-  - [Windows installer](https://github.com/multiscript/multiscript/releases/download/v0.13.0/multiscript_installer.exe)
-  - [Source code (zip)](https://github.com/multiscript/multiscript/archive/refs/tags/v0.13.0.zip)
-  - [Source code (tar.gz)](https://github.com/multiscript/multiscript/archive/refs/tags/v0.13.0.tar.gz)
+  - [macOS disk image](https://github.com/multiscript/multiscript/releases/latest/download/Multiscript.dmg) (You will need to follow the [instructions here for opening an unregistered app](https://support.apple.com/en-gb/guide/mac-help/mh40616/mac).)
+  - [Windows installer](https://github.com/multiscript/multiscript/releases/latest/download/multiscript_installer.exe)
+  - [Source code (zip)](https://api.github.com/repos/multiscript/multiscript/zipball)
+  - [Source code (tar.gz)](https://api.github.com/repos/multiscript/multiscript/tarball)
   - [List of major changes in each version](https://github.com/multiscript/multiscript/blob/main/CHANGES.md)
   - [Github repository](https://github.com/multiscript/multiscript/)
 
