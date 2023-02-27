@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Documentation - Multiscript</title>
+    <meta
+      name="description"
+      content="Combine Bible versions for multicultural ministry"
+    />
+    <meta property="og:title" content="Documentation - Multiscript" />
+    <meta
+      property="og:description"
+      content="Combine Bible versions for multicultural ministry"
+    />
+    <meta
+      property="og:image"
+      content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/ab067e43-f5c8-4856-801e-ca45a4a6667e/a99d4db0-888f-413a-a391-e504b165db25?org_if_sml=1"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 18px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.5;
+        color: var(--dl-color-gray-white);
+        background-color: var(--dl-color-primary-2);
+
+      }
+    </style>
+    <link
+      rel="shortcut icon"
+      href="public/playground_assets/multiscript.svg"
+      type="icon/png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html@0.1.11/dist/default/lib.umd.js"
+      ></script>
+      <link href="./documentation.css" rel="stylesheet" />
+
+      <div class="documentation-container">
+        <div class="documentation-hero">
+          <div class="documentation-container1">
+            <h1 class="documentation-text">Multiscript Documentation</h1>
+          </div>
+        </div>
+        <div class="documentation-container2">
+          <h1 class="documentation-text01">Plan files</h1>
+          <span class="documentation-text02">
+            <span>
+              Multiscript documents are called plans. A Multiscript plan
+              describes the Bible passage references, Bible versions, output
+              template and settings that will be used to generated the set of
+              output files.
+            </span>
+            <br />
+            <br />
+            <span>Here’s an example Multiscript plan:</span>
+          </span>
+          <img
+            alt="image"
+            src="public/playground_assets/example-plan-600w.png"
+            class="documentation-image"
+          />
+          <span class="documentation-text07">
+            <span>Here are the basic features of a plan:</span>
+            <br />
+          </span>
+          <h2 class="documentation-text10">A - Bible Passages</h2>
+          <span class="documentation-text11">
+            <span>
+              This is the list of Bible passages you want to collate. Many
+              common English abbreviations for book names will be accepted. At
+              the moment, you always have to include the book name (i.e.
+              references like Mark 1:1-5; 2:1-5 won’t work, so use Mark 1:1-5;
+              Mark 2:1-5 instead).
+            </span>
+            <br />
+            <br />
+            <span>
+              Passages separated by a comma are considered to be part of one
+              group. Usually this means they’ll appear in a single table under a
+              combined heading, separated by continuation text (which by default
+              is an ellipsis).
+            </span>
+            <br />
+            <br />
+            <span>
+              Passages separated by a semicolon are considered to be in separate
+              groups (i.e. separate tables).
+            </span>
+            <br />
+          </span>
+          <h2 class="documentation-text20">B - Bible Versions</h2>
+          <span class="documentation-text21">
+            <span>
+              This is the list of versions you wish to combine. Click Add
+              Versions to Set to add versions to the plan.
+            </span>
+            <br />
+            <br />
+            <span>
+              The version columns (i.e. Version A, Version B etc.) control how
+              the versions are combined. It’s easiest to think of each column in
+              this list as a Bible passage column in your output document. You
+              then tick which versions you want to appear in each column.
+            </span>
+            <br />
+            <br />
+            <span>
+              In the screenshot above, the English version is the only ticked
+              version in column A, which means it will appear in every output
+              document. All the other versions are ticked in column B. This will
+              result in a series of files being generated, each of which have
+              English and one of the other versions included per file.
+            </span>
+            <br />
+            <br />
+            <span>
+              You can have any number of columns (currently 1 to 26), and
+              Multiscript will generate every possible combination for the
+              versions and column ticks you enter.
+            </span>
+            <br />
+            <br />
+            <span>
+              You can double-click on any version to edit its labels, preferred
+              font etc.
+            </span>
+            <br />
+          </span>
+          <h2 class="documentation-text36">C - Template</h2>
+          <span class="documentation-text37">
+            <span>
+              This is the template document that Multiscript will use to
+              generate each output file.
+            </span>
+            <br />
+          </span>
+          <h2 class="documentation-text40">D - Output Folder</h2>
+          <span class="documentation-text41">
+            <span>
+              This is the folder in which the output files will be generated.
+            </span>
+            <br />
+          </span>
+          <h2 class="documentation-text44">E - Plan Options</h2>
+          <span class="documentation-text45">
+            <span>
+              Click this button to adjust various settings specific to this plan
+              file.
+            </span>
+            <br />
+          </span>
+          <h2 class="documentation-text48">F - Start</h2>
+          <span class="documentation-text49">
+            <span>
+              Click this button to execute the plan, which will generate the
+              output files.
+            </span>
+            <br />
+          </span>
+          <h2 class="documentation-text52">G - Plan Notes</h2>
+          <span class="documentation-text53">
+            You can write any notes you wish to include with the plan here. (The
+            notes are stored in Markdown format.)
+          </span>
+        </div>
+        <div class="documentation-container3">
+          <h1 class="documentation-text54">Editing a template</h1>
+          <span class="documentation-text55">
+            <span>Here’s some help for editing a template document:</span>
+            <br />
+          </span>
+          <h2 class="documentation-text58">Tags</h2>
+          <span class="documentation-text59">
+            The template file should include any of the following tags. Around
+            the tags you can include any other content that you like.
+          </span>
+          <div class="documentation-div">
+            <dangerous-html
+              html="<table style='font-family: sans-serif; color: black; border-collapse: collapse'>
+  <thead>
+    <tr>
+      <th style='border: thin black solid; padding: 1rem;'>Tag Text</th>
+      <th style='border: thin black solid; padding: 1rem;'>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style='border: thin black solid; padding: 1rem;'><strong>[MSC_ALL_VERS_USER_LANG]</strong></td>
+      <td style='border: thin black solid; padding: 1rem;'>Inserts the list of all the version languages (using user labels) appearing in the output file.</td>
+    </tr>
+    <tr>
+      <td style='border: thin black solid; padding: 1rem;'><strong>[MSC_UNIQUE_VERS_USER_LANG]</strong></td>
+      <td style='border: thin black solid; padding: 1rem;'>Inserts the list of version languages (user user labels) for <em>unique</em> versions in the plan. In other words, this is the same as [MSC_ALL_VERS_USER_LANG] except it ignores columns that have only one version ticked.</td>
+    </tr>
+    <tr>
+      <td style='border: thin black solid; padding: 1rem;'><strong>[MSC_VER_USER_LANG_X]</strong></td>
+      <td style='border: thin black solid; padding: 1rem;'>Inserts one version’s language (user label), where X is the is the version column letter (e.g. A,B,C).</td>
+    </tr>
+    <tr>
+      <td style='border: thin black solid; padding: 1rem;'><strong>[MSC_ALL_TABLES]</strong></td>
+      <td style='border: thin black solid; padding: 1rem;'>The most useful tag. For each group of passages, inserts a passage header ([MSC_PASSAGE_GROUP] tag), followed by a table containing the Bible text ([MSC_TEXT] tags). The first table in the document includes an extra row at the top containing [MSC_VER_NAME] tags.</td>
+    </tr>
+    <tr>
+      <td style='border: thin black solid; padding: 1rem;'><strong>[MSC_PASSAGE_GROUP_n]</strong></td>
+      <td style='border: thin black solid; padding: 1rem;'>Inserts the Bible passage reference for an entire group of passages (i.e. passages separated by commas), where n is group number (starting from 1).</td>
+    </tr>
+    <tr>
+      <td style='border: thin black solid; padding: 1rem;'><strong>[MSC_PASSAGE_n]</strong></td>
+      <td style='border: thin black solid; padding: 1rem;'>Inserts a single Bible passage reference, where n is the passage number (starting from 1, and ignoring any groups).</td>
+    </tr>
+    <tr>
+      <td style='border: thin black solid; padding: 1rem;'><strong>[MSC_VER_NAME_X]</strong></td>
+      <td style='border: thin black solid; padding: 1rem;'>Inserts the version’s name, where X is the is the version column letter (e.g. A,B,C).</td>
+    </tr>
+    <tr>
+      <td style='border: thin black solid; padding: 1rem;'><strong>[MSC_TEXT_nX]</strong></td>
+      <td style='border: thin black solid; padding: 1rem;'>Inserts the actual Bible text, where n is the passage number (starting from 1, and ignoring any groups), and X is the is the version column letter (e.g. A,B,C).</td>
+    </tr>
+    <tr>
+      <td style='border: thin black solid; padding: 1rem;'><strong>[MSC_TEXT_JOIN]</strong></td>
+      <td style='border: thin black solid; padding: 1rem;'>Inserts the continuation text (which by default is an ellipsis).</td>
+    </tr>
+    <tr>
+      <td style='border: thin black solid; padding: 1rem;'><strong>[MSC_COPYRIGHT_X]</strong></td>
+      <td style='border: thin black solid; padding: 1rem;'>Insert the copyright text for one version, where X is the is the version column letter (e.g. A,B,C).</td>
+    </tr>
+  </tbody>
+</table>
+"
+            ></dangerous-html>
+          </div>
+          <h2 class="documentation-text60">Styles</h2>
+          <span class="documentation-text61">
+            <span>
+              If your template is a Microsoft Word document, Multiscript will
+              attempt to apply the following formatting styles. If you create
+              styles with these names, you can control the formatting of the
+              Multiscript output.
+            </span>
+            <br />
+          </span>
+          <div>
+            <dangerous-html
+              html="<table style='font-family: sans-serif; color: black; border-collapse: collapse'>
+  <thead>
+    <tr>
+      <th style='border: thin black solid; padding: 1rem;'>Style Name</th>
+      <th style='border: thin black solid; padding: 1rem;'>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style='border: thin black solid; padding: 1rem;'><strong>MSC_Text_Table_Horiz</strong></td>
+      <td style='border: thin black solid; padding: 1rem;'>Table style for horizontal table of Bible texts (created by [MSC_ALL_TABLES] tag).</td>
+    </tr>
+    <tr>
+      <td style='border: thin black solid; padding: 1rem;'><strong>MSC_Passage_Group</strong></td>
+      <td style='border: thin black solid; padding: 1rem;'>Paragraph style for a group of passage references ([MSC_PASSAGE_GROUP] tags).</td>
+    </tr>
+    <tr>
+      <td style='border: thin black solid; padding: 1rem;'><strong>MSC_Version_Name</strong></td>
+      <td style='border: thin black solid; padding: 1rem;'>Paragraph style for the Bible version’s name ([MSC_VER_NAME] tags).</td>
+    </tr>
+    <tr>
+      <td style='border: thin black solid; padding: 1rem;'><strong>MSC_Paragraph</strong></td>
+      <td style='border: thin black solid; padding: 1rem;'>Paragraph style for Bible text ([MSC_TEXT] tags).</td>
+    </tr>
+    <tr>
+      <td style='border: thin black solid; padding: 1rem;'><strong>MSC_Join</strong></td>
+      <td style='border: thin black solid; padding: 1rem;'>Paragraph style for the continuation text ([MSC_TEXT_JOIN] tags).</td>
+    </tr>
+    <tr>
+      <td style='border: thin black solid; padding: 1rem;'><strong>MSC_Copyright_Table_Horiz</strong></td>
+      <td style='border: thin black solid; padding: 1rem;'>Table style for horizontal table of copyright texts.</td>
+    </tr>
+    <tr>
+      <td style='border: thin black solid; padding: 1rem;'><strong>MSC_Copyright</strong></td>
+      <td style='border: thin black solid; padding: 1rem;'>Style for the copyright text ([MSC_COPYRIGHT] tags).</td>
+    </tr>
+  </tbody>
+</table>
+"
+            ></dangerous-html>
+          </div>
+          <h2 class="documentation-text64">Fonts</h2>
+          <span class="documentation-text65">
+            <span>
+              You can specify a font name and font size for each version, that
+              will be applied to the Bible text (overriding the MSC_Paragraph
+              style). The
+            </span>
+            <a
+              href="https://fonts.google.com/noto"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="documentation-link"
+            >
+              Google Noto project
+            </a>
+            <span>
+              has fonts that cover a large number of the world’s languages and
+              scripts.
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <script
+      data-section-id="header"
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </body>
+</html>
