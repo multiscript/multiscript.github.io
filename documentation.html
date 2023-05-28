@@ -42,7 +42,7 @@
     </style>
     <link
       rel="shortcut icon"
-      href="public/playground_assets/multiscript.svg"
+      href="public/multiscript.svg"
       type="icon/png"
       sizes="32x32"
     />
@@ -59,7 +59,7 @@
     <div>
       <script
         type="text/javascript"
-        src="https://unpkg.com/dangerous-html@0.1.11/dist/default/lib.umd.js"
+        src="https://unpkg.com/dangerous-html@0.1.12/dist/default/lib.umd.js"
       ></script>
       <link href="./documentation.css" rel="stylesheet" />
 
@@ -84,7 +84,7 @@
           </span>
           <img
             alt="image"
-            src="public/playground_assets/example-plan-600w.png"
+            src="public/example-plan-600w.png"
             class="documentation-image"
           />
           <span class="documentation-text07">
@@ -94,34 +94,31 @@
           <h2 class="documentation-text10">A - Bible Passages</h2>
           <span class="documentation-text11">
             <span>
-              This is the list of Bible passages you want to collate. Many
-              common English abbreviations for book names will be accepted. At
-              the moment, you always have to include the book name (i.e.
-              references like Mark 1:1-5; 2:1-5 won’t work, so use Mark 1:1-5;
-              Mark 2:1-5 instead).
+              This is the list of Bible passages you want to collate. Most
+              common English abbreviations for book names will be accepted, and
+              multiple passages can be listed using commas and semicolons. For
+              example: Matt 2:19-4:17; 5:3-12, 17-20; Mark 8-10; 15
             </span>
             <br />
             <br />
             <span>
               Passages separated by a comma are considered to be part of one
-              group. Usually this means they’ll appear in a single table under a
-              combined heading, separated by continuation text (which by default
-              is an ellipsis).
             </span>
-            <br />
-            <br />
+            <span class="documentation-text16">group</span>
             <span>
-              Passages separated by a semicolon are considered to be in separate
-              groups (i.e. separate tables).
+              . Usually this means they'll appear in a single table under a
+              combined heading, separated by an ellipsis (...). Passages
+              separated by a semicolon are considered to be in separate groups
+              (i.e. separate tables). Semicolons also mean that any number that
+              follows is considered to be a chapter number.
             </span>
             <br />
           </span>
-          <h2 class="documentation-text20">B - Bible Versions</h2>
-          <span class="documentation-text21">
-            <span>
-              This is the list of versions you wish to combine. Click Add
-              Versions to Set to add versions to the plan.
-            </span>
+          <h2 class="documentation-text19">B - Bible Versions</h2>
+          <span class="documentation-text20">
+            <span>This is the list of versions you wish to combine. Click</span>
+            <span class="documentation-text22">Add Versions to Plan</span>
+            <span>to add versions to the plan.</span>
             <br />
             <br />
             <span>
@@ -154,51 +151,51 @@
             </span>
             <br />
           </span>
-          <h2 class="documentation-text36">C - Template</h2>
-          <span class="documentation-text37">
+          <h2 class="documentation-text37">C - Template</h2>
+          <span class="documentation-text38">
             <span>
               This is the template document that Multiscript will use to
               generate each output file.
             </span>
             <br />
           </span>
-          <h2 class="documentation-text40">D - Output Folder</h2>
-          <span class="documentation-text41">
+          <h2 class="documentation-text41">D - Output Folder</h2>
+          <span class="documentation-text42">
             <span>
               This is the folder in which the output files will be generated.
             </span>
             <br />
           </span>
-          <h2 class="documentation-text44">E - Plan Options</h2>
-          <span class="documentation-text45">
+          <h2 class="documentation-text45">E - Plan Options</h2>
+          <span class="documentation-text46">
             <span>
               Click this button to adjust various settings specific to this plan
               file.
             </span>
             <br />
           </span>
-          <h2 class="documentation-text48">F - Start</h2>
-          <span class="documentation-text49">
+          <h2 class="documentation-text49">F - Start</h2>
+          <span class="documentation-text50">
             <span>
               Click this button to execute the plan, which will generate the
               output files.
             </span>
             <br />
           </span>
-          <h2 class="documentation-text52">G - Plan Notes</h2>
-          <span class="documentation-text53">
+          <h2 class="documentation-text53">G - Plan Notes</h2>
+          <span class="documentation-text54">
             You can write any notes you wish to include with the plan here. (The
             notes are stored in Markdown format.)
           </span>
         </div>
         <div class="documentation-container3">
-          <h1 class="documentation-text54">Editing a template</h1>
-          <span class="documentation-text55">
+          <h1 class="documentation-text55">Editing a template</h1>
+          <span class="documentation-text56">
             <span>Here’s some help for editing a template document:</span>
             <br />
           </span>
-          <h2 class="documentation-text58">Tags</h2>
-          <span class="documentation-text59">
+          <h2 class="documentation-text59">Tags</h2>
+          <span class="documentation-text60">
             The template file should include any of the following tags. Around
             the tags you can include any other content that you like.
           </span>
@@ -257,8 +254,8 @@
 "
             ></dangerous-html>
           </div>
-          <h2 class="documentation-text60">Styles</h2>
-          <span class="documentation-text61">
+          <h2 class="documentation-text61">Styles</h2>
+          <span class="documentation-text62">
             <span>
               If your template is a Microsoft Word document, Multiscript will
               attempt to apply the following formatting styles. If you create
@@ -310,8 +307,8 @@
 "
             ></dangerous-html>
           </div>
-          <h2 class="documentation-text64">Fonts</h2>
-          <span class="documentation-text65">
+          <h2 class="documentation-text65">Fonts</h2>
+          <span class="documentation-text66">
             <span>
               You can specify a font name and font size for each version, that
               will be applied to the Bible text (overriding the MSC_Paragraph
@@ -337,6 +334,5 @@
       data-section-id="header"
       src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
     ></script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   </body>
 </html>
